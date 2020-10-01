@@ -16,7 +16,7 @@ Model(s) for boasts and roasts with appropriate attributes as derived from other
 GET, and POST endpoints for boasts and roasts
 POST endpoints for voting on boasts and roasts
 hint: add extra actions (Links to an external site.)Links to an external site. to your viewset
-Note: You will likely run into issues with CORS --> https://www.django-rest-framework.org/topics/ajax-csrf-cors/#cors (Links to an external site.)Links to an external site.
+Note: You will likely run into issues with CORS --> [https://www.django-rest-framework.org/topics/ajax-csrf-cors/#cors] (Links to an external site.)Links to an external site.
 
 ## Extra credit (4 points)
 
