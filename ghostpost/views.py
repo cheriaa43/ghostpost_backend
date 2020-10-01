@@ -40,7 +40,7 @@ class BoastRoastViewSet(viewsets.ModelViewSet):
     
     @action(detail=True, methods=['get','post'])
     def down_vote(self, request, pk=None):
-        '''Adds a up vote to certian post'''
+        '''Adds a down vote to certian post'''
         post = self.get_object()
         post.down_vote += 1
         post.save()
