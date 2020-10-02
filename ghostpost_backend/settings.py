@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    #'corsheaders.middleware.CorsMiddleWare',
+    'corsheaders.middleware.CorsMiddleWare',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -123,10 +123,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://127.0.0.1:8000"
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:3000"
+]
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'http://127.0.0.1:8000',
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'http://127.0.0.1:3000',
+]
