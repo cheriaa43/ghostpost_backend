@@ -20,7 +20,7 @@ from ghostpost import views
 
 
 router = routers.DefaultRouter()
-router.register(r'BoastRoast', views.BoastRoastViewSet, 'BoastsRoasts')
+router.register(r'BoastRoast', views.BoastRoastViewSet, 'BoastRoast')
 
 urlpatterns = [
     path('api/', include(router.urls)),

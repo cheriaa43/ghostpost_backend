@@ -10,5 +10,6 @@ class Boast_Roast(models.Model):
     content = models.CharField(max_length=280)
     date_created = models.DateTimeField(default=timezone.now)
 
+    @property
     def num_votes(self):
         return self.up_vote + self.down_vote
